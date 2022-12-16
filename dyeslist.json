@@ -1,0 +1,614 @@
+[
+  {
+    "Name": "Abyssal Blue Dye",
+    "Hex": "312D57FF",
+    "ID": 5804,
+    "Name2": "Abyssal Blue Dye"
+  },
+  {
+    "Name": "Acorn Brown Dye",
+    "Hex": "8E581BFF",
+    "ID": 5755,
+    "Name2": "Acorn Brown Dye"
+  },
+  {
+    "Name": "Adamantoise Green Dye",
+    "Hex": "5F7558FF",
+    "ID": 5782,
+    "Name2": "Adamantoise Green Dye"
+  },
+  {
+    "Name": "Aldgoat Brown Dye",
+    "Hex": "A2875CFF",
+    "ID": 5753,
+    "Name2": "Aldgoat Brown Dye"
+  },
+  {
+    "Name": "Apple Green Dye",
+    "Hex": "9BB363FF",
+    "ID": 5778,
+    "Name2": "Apple Green Dye"
+  },
+  {
+    "Name": "Ash Grey Dye",
+    "Hex": "ACA8A2FF",
+    "ID": 5730,
+    "Name2": "Ash Grey Dye"
+  },
+  {
+    "Name": "Bark Brown Dye",
+    "Hex": "6A4B37FF",
+    "ID": 5746,
+    "Name2": "Bark Brown Dye"
+  },
+  {
+    "Name": "Blood Red Dye",
+    "Hex": "913B27FF",
+    "ID": 5742,
+    "Name2": "Blood Red Dye"
+  },
+  {
+    "Name": "Bone White Dye",
+    "Hex": "EBD3A0FF",
+    "ID": 5762,
+    "Name2": "Bone White Dye"
+  },
+  {
+    "Name": "Cactuar Green Dye",
+    "Hex": "658241FF",
+    "ID": 5779,
+    "Name2": "Cactuar Green Dye"
+  },
+  {
+    "Name": "Canary Yellow Dye",
+    "Hex": "FEF864FF",
+    "ID": 30118,
+    "Name2": ""
+  },
+  {
+    "Name": "Celeste Green Dye",
+    "Hex": "96BDB9FF",
+    "ID": 5785,
+    "Name2": "Celeste Green Dye"
+  },
+  {
+    "Name": "Ceruleum Blue Dye",
+    "Hex": "4F5766FF",
+    "ID": 5794,
+    "Name2": "Ceruleum Blue Dye"
+  },
+  {
+    "Name": "Charcoal Grey Dye",
+    "Hex": "484742FF",
+    "ID": 5733,
+    "Name2": "Charcoal Grey Dye"
+  },
+  {
+    "Name": "Cherry Pink Dye",
+    "Hex": "F5379BFF",
+    "ID": 30117,
+    "Name2": ""
+  },
+  {
+    "Name": "Chestnut Brown Dye",
+    "Hex": "3D290DFF",
+    "ID": 5757,
+    "Name2": "Chestnut Brown Dye"
+  },
+  {
+    "Name": "Chocolate Brown Dye",
+    "Hex": "6E3D24FF",
+    "ID": 5747,
+    "Name2": "Chocolate Brown Dye"
+  },
+  {
+    "Name": "Coeurl Yellow Dye",
+    "Hex": "BC8804FF",
+    "ID": 5767,
+    "Name2": "Coeurl Yellow Dye"
+  },
+  {
+    "Name": "Colibri Pink Dye",
+    "Hex": "DC9BCAFF",
+    "ID": 5811,
+    "Name2": "Colibri Pink Dye"
+  },
+  {
+    "Name": "Coral Pink Dye",
+    "Hex": "CC6C5EFF",
+    "ID": 5741,
+    "Name2": "Coral Pink Dye"
+  },
+  {
+    "Name": "Cork Brown Dye",
+    "Hex": "C99156FF",
+    "ID": 5750,
+    "Name2": "Cork Brown Dye"
+  },
+  {
+    "Name": "Corpse Blue Dye",
+    "Hex": "8E9BACFF",
+    "ID": 5793,
+    "Name2": "Corpse Blue Dye"
+  },
+  {
+    "Name": "Cream Yellow Dye",
+    "Hex": "F2D770FF",
+    "ID": 5768,
+    "Name2": "Cream Yellow Dye"
+  },
+  {
+    "Name": "Currant Purple Dye",
+    "Hex": "322C3BFF",
+    "ID": 5807,
+    "Name2": "Currant Purple Dye"
+  },
+  {
+    "Name": "Dalamud Red Dye",
+    "Hex": "781A1AFF",
+    "ID": 5738,
+    "Name2": "Dalamud Red Dye"
+  },
+  {
+    "Name": "Deepwood Green Dye",
+    "Hex": "1E2A21FF",
+    "ID": 5784,
+    "Name2": "Deepwood Green Dye"
+  },
+  {
+    "Name": "Desert Yellow Dye",
+    "Hex": "DBB457FF",
+    "ID": 5764,
+    "Name2": "Desert Yellow Dye"
+  },
+  {
+    "Name": "Dragoon Blue Dye",
+    "Hex": "000EA2FF",
+    "ID": 30120,
+    "Name2": ""
+  },
+  {
+    "Name": "Gloom Purple Dye",
+    "Hex": "514560FF",
+    "ID": 5806,
+    "Name2": "Gloom Purple Dye"
+  },
+  {
+    "Name": "Gobbiebag Brown Dye",
+    "Hex": "B9A489FF",
+    "ID": 5758,
+    "Name2": "Gobbiebag Brown Dye"
+  },
+  {
+    "Name": "Goobbue Grey Dye",
+    "Hex": "898784FF",
+    "ID": 5731,
+    "Name2": "Goobbue Grey Dye"
+  },
+  {
+    "Name": "Grape Purple Dye",
+    "Hex": "3B2A3DFF",
+    "ID": 5809,
+    "Name2": "Grape Purple Dye"
+  },
+  {
+    "Name": "Halatali Yellow Dye",
+    "Hex": "A58430FF",
+    "ID": 5769,
+    "Name2": "Halatali Yellow Dye"
+  },
+  {
+    "Name": "Honey Yellow Dye",
+    "Hex": "FAC62BFF",
+    "ID": 5765,
+    "Name2": "Honey Yellow Dye"
+  },
+  {
+    "Name": "Hunter Green Dye",
+    "Hex": "284B2CFF",
+    "ID": 5780,
+    "Name2": "Hunter Green Dye"
+  },
+  {
+    "Name": "Ice Blue Dye",
+    "Hex": "B2C4CEFF",
+    "ID": 5788,
+    "Name2": "Ice Blue Dye"
+  },
+  {
+    "Name": "Ink Blue Dye",
+    "Hex": "1A1F27FF",
+    "ID": 5796,
+    "Name2": "Ink Blue Dye"
+  },
+  {
+    "Name": "Iris Purple Dye",
+    "Hex": "B79EBCFF",
+    "ID": 5808,
+    "Name2": "Iris Purple Dye"
+  },
+  {
+    "Name": "Kobold Brown Dye",
+    "Hex": "30211BFF",
+    "ID": 5749,
+    "Name2": "Kobold Brown Dye"
+  },
+  {
+    "Name": "Lavender Purple Dye",
+    "Hex": "877FAEFF",
+    "ID": 5805,
+    "Name2": "Lavender Purple Dye"
+  },
+  {
+    "Name": "Lilac Purple Dye",
+    "Hex": "836969FF",
+    "ID": 5736,
+    "Name2": "Lilac Purple Dye"
+  },
+  {
+    "Name": "Lime Green Dye",
+    "Hex": "ABB054FF",
+    "ID": 5773,
+    "Name2": "Lime Green Dye"
+  },
+  {
+    "Name": "Loam Brown Dye",
+    "Hex": "3F3329FF",
+    "ID": 5761,
+    "Name2": "Loam Brown Dye"
+  },
+  {
+    "Name": "Lotus Pink Dye",
+    "Hex": "FECEF5FF",
+    "ID": 5810,
+    "Name2": "Lotus Pink Dye"
+  },
+  {
+    "Name": "Marsh Green Dye",
+    "Hex": "323621FF",
+    "ID": 5777,
+    "Name2": "Marsh Green Dye"
+  },
+  {
+    "Name": "Meadow Green Dye",
+    "Hex": "8B9C63FF",
+    "ID": 5775,
+    "Name2": "Meadow Green Dye"
+  },
+  {
+    "Name": "Mesa Red Dye",
+    "Hex": "7D3906FF",
+    "ID": 5745,
+    "Name2": "Mesa Red Dye"
+  },
+  {
+    "Name": "Midnight Blue Dye",
+    "Hex": "181937FF",
+    "ID": 5802,
+    "Name2": "Midnight Blue Dye"
+  },
+  {
+    "Name": "Millioncorn Yellow Dye",
+    "Hex": "E49E34FF",
+    "ID": 5766,
+    "Name2": "Millioncorn Yellow Dye"
+  },
+  {
+    "Name": "Mole Brown Dye",
+    "Hex": "615245FF",
+    "ID": 5760,
+    "Name2": "Mole Brown Dye"
+  },
+  {
+    "Name": "Morbol Green Dye",
+    "Hex": "1F4646FF",
+    "ID": 5787,
+    "Name2": "Morbol Green Dye"
+  },
+  {
+    "Name": "Moss Green Dye",
+    "Hex": "707326FF",
+    "ID": 5774,
+    "Name2": "Moss Green Dye"
+  },
+  {
+    "Name": "Mud Green Dye",
+    "Hex": "585230FF",
+    "ID": 5771,
+    "Name2": "Mud Green Dye"
+  },
+  {
+    "Name": "Nophica Green Dye",
+    "Hex": "3B4D3CFF",
+    "ID": 5783,
+    "Name2": "Nophica Green Dye"
+  },
+  {
+    "Name": "Ochu Green Dye",
+    "Hex": "406339FF",
+    "ID": 5781,
+    "Name2": "Ochu Green Dye"
+  },
+  {
+    "Name": "Olive Green Dye",
+    "Hex": "4B5232FF",
+    "ID": 5776,
+    "Name2": "Olive Green Dye"
+  },
+  {
+    "Name": "Opo-opo Brown Dye",
+    "Hex": "7B5C2DFF",
+    "ID": 5752,
+    "Name2": "Opo-opo Brown Dye"
+  },
+  {
+    "Name": "Orchard Brown Dye",
+    "Hex": "644216FF",
+    "ID": 5756,
+    "Name2": "Orchard Brown Dye"
+  },
+  {
+    "Name": "Othard Blue Dye",
+    "Hex": "2F5889FF",
+    "ID": 5798,
+    "Name2": "Othard Blue Dye"
+  },
+  {
+    "Name": "Peacock Blue Dye",
+    "Hex": "3B6886FF",
+    "ID": 5791,
+    "Name2": "Peacock Blue Dye"
+  },
+  {
+    "Name": "Plum Purple Dye",
+    "Hex": "79526CFF",
+    "ID": 5812,
+    "Name2": "Plum Purple Dye"
+  },
+  {
+    "Name": "Pumpkin Orange Dye",
+    "Hex": "C57424FF",
+    "ID": 5754,
+    "Name2": "Pumpkin Orange Dye"
+  },
+  {
+    "Name": "Qiqirn Brown Dye",
+    "Hex": "996E3FFF",
+    "ID": 5751,
+    "Name2": "Qiqirn Brown Dye"
+  },
+  {
+    "Name": "Raisin Brown Dye",
+    "Hex": "403311FF",
+    "ID": 5770,
+    "Name2": "Raisin Brown Dye"
+  },
+  {
+    "Name": "Raptor Blue Dye",
+    "Hex": "5B7FC0FF",
+    "ID": 5797,
+    "Name2": "Raptor Blue Dye"
+  },
+  {
+    "Name": "Regal Purple Dye",
+    "Hex": "66304EFF",
+    "ID": 5813,
+    "Name2": "Regal Purple Dye"
+  },
+  {
+    "Name": "Rhotano Blue Dye",
+    "Hex": "1C3D54FF",
+    "ID": 5792,
+    "Name2": "Rhotano Blue Dye"
+  },
+  {
+    "Name": "Rolanberry Red Dye",
+    "Hex": "5B1729FF",
+    "ID": 5737,
+    "Name2": "Rolanberry Red Dye"
+  },
+  {
+    "Name": "Rose Pink Dye",
+    "Hex": "E69F96FF",
+    "ID": 5735,
+    "Name2": "Rose Pink Dye"
+  },
+  {
+    "Name": "Royal Blue Dye",
+    "Hex": "273067FF",
+    "ID": 5801,
+    "Name2": "Royal Blue Dye"
+  },
+  {
+    "Name": "Ruby Red Dye",
+    "Hex": "E40011FF",
+    "ID": 30116,
+    "Name2": ""
+  },
+  {
+    "Name": "Russet Brown Dye",
+    "Hex": "4F2D1FFF",
+    "ID": 5748,
+    "Name2": "Russet Brown Dye"
+  },
+  {
+    "Name": "Rust Red Dye",
+    "Hex": "622207FF",
+    "ID": 5739,
+    "Name2": "Rust Red Dye"
+  },
+  {
+    "Name": "Salmon Pink Dye",
+    "Hex": "E4AA8AFF",
+    "ID": 5743,
+    "Name2": "Salmon Pink Dye"
+  },
+  {
+    "Name": "Seafog Blue Dye",
+    "Hex": "6481A0FF",
+    "ID": 5790,
+    "Name2": "Seafog Blue Dye"
+  },
+  {
+    "Name": "Shadow Blue Dye",
+    "Hex": "373747FF",
+    "ID": 5803,
+    "Name2": "Shadow Blue Dye"
+  },
+  {
+    "Name": "Shale Brown Dye",
+    "Hex": "92816CFF",
+    "ID": 5759,
+    "Name2": "Shale Brown Dye"
+  },
+  {
+    "Name": "Sky Blue Dye",
+    "Hex": "83B0D2FF",
+    "ID": 5789,
+    "Name2": "Sky Blue Dye"
+  },
+  {
+    "Name": "Slate Grey Dye",
+    "Hex": "656565FF",
+    "ID": 5732,
+    "Name2": "Slate Grey Dye"
+  },
+  {
+    "Name": "Snow White Dye",
+    "Hex": "E4DFD0FF",
+    "ID": 5729,
+    "Name2": "Snow White Dye"
+  },
+  {
+    "Name": "Soot Black Dye",
+    "Hex": "2B2923FF",
+    "ID": 5734,
+    "Name2": "Soot Black Dye"
+  },
+  {
+    "Name": "Storm Blue Dye",
+    "Hex": "234172FF",
+    "ID": 5799,
+    "Name2": "Storm Blue Dye"
+  },
+  {
+    "Name": "Sunset Orange Dye",
+    "Hex": "B75C2DFF",
+    "ID": 5744,
+    "Name2": "Sunset Orange Dye"
+  },
+  {
+    "Name": "Sylph Green Dye",
+    "Hex": "BBBB8AFF",
+    "ID": 5772,
+    "Name2": "Sylph Green Dye"
+  },
+  {
+    "Name": "Turquoise Blue Dye",
+    "Hex": "04AFCDFF",
+    "ID": 30121,
+    "Name2": ""
+  },
+  {
+    "Name": "Turquoise Green Dye",
+    "Hex": "437272FF",
+    "ID": 5786,
+    "Name2": "Turquoise Green Dye"
+  },
+  {
+    "Name": "Ul Brown Dye",
+    "Hex": "B7A370FF",
+    "ID": 5763,
+    "Name2": "Ul Brown Dye"
+  },
+  {
+    "Name": "Vanilla Yellow Dye",
+    "Hex": "FBF1B4FF",
+    "ID": 30119,
+    "Name2": ""
+  },
+  {
+    "Name": "Void Blue Dye",
+    "Hex": "112944FF",
+    "ID": 5800,
+    "Name2": "Void Blue Dye"
+  },
+  {
+    "Name": "Wine Red Dye",
+    "Hex": "451511FF",
+    "ID": 5740,
+    "Name2": "Wine Red Dye"
+  },
+  {
+    "Name": "Woad Blue Dye",
+    "Hex": "2F3851FF",
+    "ID": 5795,
+    "Name2": "Woad Blue Dye"
+  },
+  {
+    "Name": "General-purpose Dark Blue Dye",
+    "Hex": "232026FF",
+    "ID": 13714,
+    "Name2": ""
+  },
+  {
+    "Name": "General-purpose Dark Brown Dye",
+    "Hex": "28211CFF",
+    "ID": 13710,
+    "Name2": ""
+  },
+  {
+    "Name": "General-purpose Dark Green Dye",
+    "Hex": "152C2CFF",
+    "ID": 13712,
+    "Name2": ""
+  },
+  {
+    "Name": "General-purpose Dark Purple Dye",
+    "Hex": "232026FF",
+    "ID": 13716,
+    "Name2": ""
+  },
+  {
+    "Name": "General-purpose Dark Red Dye",
+    "Hex": "321919FF",
+    "ID": 13709,
+    "Name2": ""
+  },
+  {
+    "Name": "General-purpose Jet Black Dye",
+    "Hex": "1E1E1EFF",
+    "ID": 13115,
+    "Name2": ""
+  },
+  {
+    "Name": "General-purpose Pastel Blue Dye",
+    "Hex": "96A4D9FF",
+    "ID": 13713,
+    "Name2": ""
+  },
+  {
+    "Name": "General-purpose Pastel Green Dye",
+    "Hex": "BACFAAFF",
+    "ID": 13711,
+    "Name2": ""
+  },
+  {
+    "Name": "General-purpose Pastel Pink Dye",
+    "Hex": "FDC8C6FF",
+    "ID": 13708,
+    "Name2": ""
+  },
+  {
+    "Name": "General-purpose Pastel Purple Dye",
+    "Hex": "BBB5DAFF",
+    "ID": 13715,
+    "Name2": ""
+  },
+  {
+    "Name": "General-purpose Pure White Dye",
+    "Hex": "F9F8F4FF",
+    "ID": 13114,
+    "Name2": ""
+  }
+]
