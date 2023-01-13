@@ -18,7 +18,7 @@ namespace MakePlace2Teamcraft
     public partial class MainForm : Form
     {
         static List<Dye> dyeList;
-        static int currentVersion = 102;
+        static int currentVersion = 108;
         string strCurrentFile;
         List<Furniture> furnitureList;
         List<Furniture> furnitureDyesList;
