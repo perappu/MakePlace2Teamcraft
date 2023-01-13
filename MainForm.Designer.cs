@@ -87,21 +87,21 @@
             this.menuItemLoadFile.Name = "menuItemLoadFile";
             this.menuItemLoadFile.Size = new System.Drawing.Size(184, 22);
             this.menuItemLoadFile.Text = "Load MakePlace File";
-            this.menuItemLoadFile.Click += new System.EventHandler(this.menuItemLoadFile_Click);
+            this.menuItemLoadFile.Click += new System.EventHandler(this.MenuItemLoadFile_Click);
             // 
             // menuItemCloseFile
             // 
             this.menuItemCloseFile.Name = "menuItemCloseFile";
             this.menuItemCloseFile.Size = new System.Drawing.Size(184, 22);
             this.menuItemCloseFile.Text = "Close MakePlace File";
-            this.menuItemCloseFile.Click += new System.EventHandler(this.menuItemCloseFile_Click);
+            this.menuItemCloseFile.Click += new System.EventHandler(this.MenuItemCloseFile_Click);
             // 
             // menuItemExit
             // 
             this.menuItemExit.Name = "menuItemExit";
             this.menuItemExit.Size = new System.Drawing.Size(184, 22);
             this.menuItemExit.Text = "Exit";
-            this.menuItemExit.Click += new System.EventHandler(this.menuItemExit_Click);
+            this.menuItemExit.Click += new System.EventHandler(this.MenuItemExit_Click);
             // 
             // groupBox1
             // 
