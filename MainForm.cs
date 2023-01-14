@@ -21,6 +21,7 @@ namespace MakePlace2Teamcraft
         private List<Furniture> furnitureDyesList;
         public MainForm()
         {
+            this.Icon = (System.Drawing.Icon)MakePlace2Teamcraft.Properties.Resources.ResourceManager.GetObject("FormIcon");
             dyeList = JsonConvert.DeserializeObject<List<Dye>>(MakePlace2Teamcraft.Properties.Resources.ResourceManager.GetString("dyeslist"));
             InitializeComponent();
         }
