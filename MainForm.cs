@@ -1,10 +1,13 @@
-﻿using Newtonsoft.Json;
+﻿using MakePlace2Teamcraft.Properties;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Reflection;
+using System.Resources;
 using System.Windows.Forms;
 
 namespace MakePlace2Teamcraft
@@ -18,13 +21,14 @@ namespace MakePlace2Teamcraft
         private List<Furniture> furnitureDyesList;
         public MainForm()
         {
-            dyeList = JsonConvert.DeserializeObject<List<Dye>>(File.ReadAllText("dyeslist.json"));
+            this.Icon = (System.Drawing.Icon)MakePlace2Teamcraft.Properties.Resources.ResourceManager.GetObject("FormIcon");
+            dyeList = JsonConvert.DeserializeObject<List<Dye>>(MakePlace2Teamcraft.Properties.Resources.ResourceManager.GetString("dyeslist"));
             InitializeComponent();
         }
         //*** Menu Items ***//
         private void MenuItemLoadFile_Click(object sender, EventArgs e)
         {
-            OpenFileDialog fileDialog = new OpenFileDialog();
+            OpenFileDialog fileDialog = new();
             string rawJSON;
             //Open the itch.io install location if it's there, otherwise just open my documents
             if (Directory.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "itch\\apps\\makeplace\\MakePlace\\Save")))
@@ -46,10 +50,8 @@ namespace MakePlace2Teamcraft
             {
                 strCurrentFile = fileDialog.FileName;
                 Stream fileStream = fileDialog.OpenFile();
-                using (StreamReader streamReader = new StreamReader(fileStream))
-                {
-                    rawJSON = streamReader.ReadToEnd();
-                }
+                using StreamReader streamReader = new(fileStream);
+                rawJSON = streamReader.ReadToEnd();
             }
             LoadMakePlaceData(rawJSON);
         }
@@ -213,7 +215,7 @@ namespace MakePlace2Teamcraft
                         1,
                         int.Parse(item.itemId.Value.ToString())
                         ));
-                        
+
                     }
                     //otherwise just increase the count on the existing object
                     else
@@ -245,11 +247,12 @@ namespace MakePlace2Teamcraft
             }
             //Teamcraft uses the list of item IDs converted to a base 64 string
             importString = System.Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(importString));
-            
+
             try
             {
                 Process.Start(new ProcessStartInfo("https://ffxivteamcraft.com/import/" + importString) { UseShellExecute = true });
-            } catch (Exception)
+            }
+            catch (Exception)
             {
                 MessageBox.Show("Unable to open default browser. Please report this along with your operating system on GitHub. /n" +
                     "https://github.com/perappu/MakePlace2Teamcraft", "Error");

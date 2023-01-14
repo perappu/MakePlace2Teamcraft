@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MakePlace2Teamcraft
 {
@@ -26,7 +22,7 @@ namespace MakePlace2Teamcraft
             {
                 return false;
             }
-            else if (other is Furniture otherFurniture)
+            else if (other is Furniture)
             {
                 return this.Equals(other);
             }

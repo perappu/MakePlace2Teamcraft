@@ -68,7 +68,8 @@
             this.menuItemFile});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(637, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(743, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -106,21 +107,24 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.txtOutput);
-            this.groupBox1.Location = new System.Drawing.Point(12, 27);
+            this.groupBox1.Location = new System.Drawing.Point(14, 31);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(325, 182);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox1.Size = new System.Drawing.Size(379, 210);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Items";
             // 
             // txtOutput
             // 
-            this.txtOutput.Location = new System.Drawing.Point(6, 19);
+            this.txtOutput.Location = new System.Drawing.Point(7, 22);
+            this.txtOutput.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtOutput.Multiline = true;
             this.txtOutput.Name = "txtOutput";
             this.txtOutput.ReadOnly = true;
             this.txtOutput.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtOutput.Size = new System.Drawing.Size(313, 157);
+            this.txtOutput.Size = new System.Drawing.Size(364, 181);
             this.txtOutput.TabIndex = 2;
             // 
             // grpItemsEdit
@@ -130,9 +134,11 @@
             this.grpItemsEdit.Controls.Add(this.label2);
             this.grpItemsEdit.Controls.Add(this.label1);
             this.grpItemsEdit.Controls.Add(this.cboItemList);
-            this.grpItemsEdit.Location = new System.Drawing.Point(343, 27);
+            this.grpItemsEdit.Location = new System.Drawing.Point(400, 31);
+            this.grpItemsEdit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.grpItemsEdit.Name = "grpItemsEdit";
-            this.grpItemsEdit.Size = new System.Drawing.Size(284, 110);
+            this.grpItemsEdit.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.grpItemsEdit.Size = new System.Drawing.Size(331, 127);
             this.grpItemsEdit.TabIndex = 4;
             this.grpItemsEdit.TabStop = false;
             this.grpItemsEdit.Text = "Edit Items";
@@ -140,9 +146,10 @@
             // btnSave
             // 
             this.btnSave.Enabled = false;
-            this.btnSave.Location = new System.Drawing.Point(9, 77);
+            this.btnSave.Location = new System.Drawing.Point(10, 89);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(88, 27);
             this.btnSave.TabIndex = 4;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -150,7 +157,8 @@
             // 
             // updItemCount
             // 
-            this.updItemCount.Location = new System.Drawing.Point(58, 46);
+            this.updItemCount.Location = new System.Drawing.Point(68, 53);
+            this.updItemCount.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.updItemCount.Minimum = new decimal(new int[] {
             1,
             0,
@@ -158,7 +166,7 @@
             0});
             this.updItemCount.Name = "updItemCount";
             this.updItemCount.ReadOnly = true;
-            this.updItemCount.Size = new System.Drawing.Size(120, 20);
+            this.updItemCount.Size = new System.Drawing.Size(140, 23);
             this.updItemCount.TabIndex = 3;
             this.updItemCount.Value = new decimal(new int[] {
             1,
@@ -169,36 +177,41 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 48);
+            this.label2.Location = new System.Drawing.Point(7, 55);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 13);
+            this.label2.Size = new System.Drawing.Size(54, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "Amount:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 22);
+            this.label1.Location = new System.Drawing.Point(26, 25);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(30, 13);
+            this.label1.Size = new System.Drawing.Size(34, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "Item:";
             // 
             // cboItemList
             // 
             this.cboItemList.FormattingEnabled = true;
-            this.cboItemList.Location = new System.Drawing.Point(58, 19);
+            this.cboItemList.Location = new System.Drawing.Point(68, 22);
+            this.cboItemList.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cboItemList.Name = "cboItemList";
-            this.cboItemList.Size = new System.Drawing.Size(194, 21);
+            this.cboItemList.Size = new System.Drawing.Size(226, 23);
             this.cboItemList.TabIndex = 0;
             this.cboItemList.SelectedIndexChanged += new System.EventHandler(this.cboItemList_SelectedIndexChanged);
             // 
             // grpExport
             // 
             this.grpExport.Controls.Add(this.btnExportTeamCraft);
-            this.grpExport.Location = new System.Drawing.Point(343, 259);
+            this.grpExport.Location = new System.Drawing.Point(400, 299);
+            this.grpExport.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.grpExport.Name = "grpExport";
-            this.grpExport.Size = new System.Drawing.Size(283, 84);
+            this.grpExport.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.grpExport.Size = new System.Drawing.Size(330, 97);
             this.grpExport.TabIndex = 5;
             this.grpExport.TabStop = false;
             this.grpExport.Text = "Export";
@@ -206,9 +219,10 @@
             // btnExportTeamCraft
             // 
             this.btnExportTeamCraft.Enabled = false;
-            this.btnExportTeamCraft.Location = new System.Drawing.Point(58, 30);
+            this.btnExportTeamCraft.Location = new System.Drawing.Point(68, 35);
+            this.btnExportTeamCraft.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnExportTeamCraft.Name = "btnExportTeamCraft";
-            this.btnExportTeamCraft.Size = new System.Drawing.Size(160, 30);
+            this.btnExportTeamCraft.Size = new System.Drawing.Size(187, 35);
             this.btnExportTeamCraft.TabIndex = 0;
             this.btnExportTeamCraft.Text = "Export to TeamCraft";
             this.btnExportTeamCraft.UseVisualStyleBackColor = true;
@@ -221,9 +235,11 @@
             this.grpDyesEdit.Controls.Add(this.lblDyeAmount);
             this.grpDyesEdit.Controls.Add(this.lblDye);
             this.grpDyesEdit.Controls.Add(this.cboDyes);
-            this.grpDyesEdit.Location = new System.Drawing.Point(343, 143);
+            this.grpDyesEdit.Location = new System.Drawing.Point(400, 165);
+            this.grpDyesEdit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.grpDyesEdit.Name = "grpDyesEdit";
-            this.grpDyesEdit.Size = new System.Drawing.Size(284, 110);
+            this.grpDyesEdit.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.grpDyesEdit.Size = new System.Drawing.Size(331, 127);
             this.grpDyesEdit.TabIndex = 5;
             this.grpDyesEdit.TabStop = false;
             this.grpDyesEdit.Text = "Edit Dyes";
@@ -231,9 +247,10 @@
             // btnSaveDye
             // 
             this.btnSaveDye.Enabled = false;
-            this.btnSaveDye.Location = new System.Drawing.Point(9, 77);
+            this.btnSaveDye.Location = new System.Drawing.Point(10, 89);
+            this.btnSaveDye.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSaveDye.Name = "btnSaveDye";
-            this.btnSaveDye.Size = new System.Drawing.Size(75, 23);
+            this.btnSaveDye.Size = new System.Drawing.Size(88, 27);
             this.btnSaveDye.TabIndex = 4;
             this.btnSaveDye.Text = "Save";
             this.btnSaveDye.UseVisualStyleBackColor = true;
@@ -241,7 +258,8 @@
             // 
             // updDyeCount
             // 
-            this.updDyeCount.Location = new System.Drawing.Point(58, 46);
+            this.updDyeCount.Location = new System.Drawing.Point(68, 53);
+            this.updDyeCount.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.updDyeCount.Minimum = new decimal(new int[] {
             1,
             0,
@@ -249,7 +267,7 @@
             0});
             this.updDyeCount.Name = "updDyeCount";
             this.updDyeCount.ReadOnly = true;
-            this.updDyeCount.Size = new System.Drawing.Size(120, 20);
+            this.updDyeCount.Size = new System.Drawing.Size(140, 23);
             this.updDyeCount.TabIndex = 3;
             this.updDyeCount.Value = new decimal(new int[] {
             1,
@@ -260,55 +278,61 @@
             // lblDyeAmount
             // 
             this.lblDyeAmount.AutoSize = true;
-            this.lblDyeAmount.Location = new System.Drawing.Point(6, 48);
+            this.lblDyeAmount.Location = new System.Drawing.Point(7, 55);
+            this.lblDyeAmount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDyeAmount.Name = "lblDyeAmount";
-            this.lblDyeAmount.Size = new System.Drawing.Size(46, 13);
+            this.lblDyeAmount.Size = new System.Drawing.Size(54, 15);
             this.lblDyeAmount.TabIndex = 2;
             this.lblDyeAmount.Text = "Amount:";
             // 
             // lblDye
             // 
             this.lblDye.AutoSize = true;
-            this.lblDye.Location = new System.Drawing.Point(22, 22);
+            this.lblDye.Location = new System.Drawing.Point(26, 25);
+            this.lblDye.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDye.Name = "lblDye";
-            this.lblDye.Size = new System.Drawing.Size(29, 13);
+            this.lblDye.Size = new System.Drawing.Size(30, 15);
             this.lblDye.TabIndex = 1;
             this.lblDye.Text = "Dye:";
             // 
             // cboDyes
             // 
             this.cboDyes.FormattingEnabled = true;
-            this.cboDyes.Location = new System.Drawing.Point(58, 19);
+            this.cboDyes.Location = new System.Drawing.Point(68, 22);
+            this.cboDyes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cboDyes.Name = "cboDyes";
-            this.cboDyes.Size = new System.Drawing.Size(194, 21);
+            this.cboDyes.Size = new System.Drawing.Size(226, 23);
             this.cboDyes.TabIndex = 0;
             this.cboDyes.SelectedIndexChanged += new System.EventHandler(this.cboDyes_SelectedIndexChanged);
             // 
             // grpDyes
             // 
             this.grpDyes.Controls.Add(this.txtDyes);
-            this.grpDyes.Location = new System.Drawing.Point(12, 215);
+            this.grpDyes.Location = new System.Drawing.Point(14, 248);
+            this.grpDyes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.grpDyes.Name = "grpDyes";
-            this.grpDyes.Size = new System.Drawing.Size(325, 128);
+            this.grpDyes.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.grpDyes.Size = new System.Drawing.Size(379, 148);
             this.grpDyes.TabIndex = 4;
             this.grpDyes.TabStop = false;
             this.grpDyes.Text = "Dyes";
             // 
             // txtDyes
             // 
-            this.txtDyes.Location = new System.Drawing.Point(6, 19);
+            this.txtDyes.Location = new System.Drawing.Point(7, 22);
+            this.txtDyes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtDyes.Multiline = true;
             this.txtDyes.Name = "txtDyes";
             this.txtDyes.ReadOnly = true;
             this.txtDyes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtDyes.Size = new System.Drawing.Size(313, 103);
+            this.txtDyes.Size = new System.Drawing.Size(364, 118);
             this.txtDyes.TabIndex = 2;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(637, 356);
+            this.ClientSize = new System.Drawing.Size(743, 411);
             this.Controls.Add(this.grpDyes);
             this.Controls.Add(this.grpDyesEdit);
             this.Controls.Add(this.grpExport);
@@ -316,6 +340,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "MainForm";
             this.Text = "MakePlace 2 Teamcraft";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
